@@ -124,8 +124,8 @@ public class Pair<F, S> {
     }
 
     /**
-     * So what is the supertype of all kinds of lists? It's written List<?> (pronounced "lis of unknown"),
-     * that is, a lise whose element type matches anything. It's called a wildcard type for obvious reasons.
+     * So what is the supertype of all kinds of lists? It's written List<?> (pronounced "list of unknown"),
+     * that is, a list whose element type matches anything. It's called a wildcard type for obvious reasons.
      */
     static double average(List<? extends Number> list) {
         double sum = 0.0;
